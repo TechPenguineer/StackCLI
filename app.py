@@ -17,4 +17,4 @@ if __name__ == "__main__":
     ] 
     answers = inquirer.prompt(questions)
     print( answers['question'])
-    #searchStack(answers['question'])
+    searchStack(answers['question'])
